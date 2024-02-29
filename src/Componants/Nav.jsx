@@ -39,7 +39,7 @@ function Nav() {
 
 
       <div className="offcanvas-body">
-        <ul className="navbar-nav justify-content-center align-items-center flex-grow-1 pe-3    gap-3   ">
+        <ul className="navbar-nav justify-content-center align-items-center flex-grow-1 pe-       ">
           <li className="nav-item">
             <a id='hover' className="nav-link active fw-bold" aria-current="page" href="/all-products"><i class="fa-solid fa-house"></i>ALL PRODUCTS</a>
           </li>

@@ -32,18 +32,16 @@ function Womenpage() {
                     <img src={p.image} className="card-img-top photo my-5" alt="..." />
                     <div className="card-body">
                         <h5 className="card-title font">{p.title}</h5>
-                        <p className="card-text">
-                            {p.description}
-                        </p>
+                        
                     </div>
                     <div className="card-footer">
                         <div>
                             <h4 className="price-text-style text-center text-danger text-decoration-underline mb-3">Rs {p.price}</h4>
                         </div>
-                        <div>
-                            <button type="button" className="btn btn-primary buyb">
-                                <i className="fa fa-shopping-cart"></i> BUY NOW
-                            </button>
+                        <div className="text-center pb-3">
+                    <button type="button" class="btn btn-primary buyb">
+                            <i class="fa fa-shopping-cart"></i> BUY NOW
+                        </button>
                         </div>
                     </div>
                 </div>

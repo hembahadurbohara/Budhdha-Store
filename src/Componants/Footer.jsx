@@ -1,58 +1,53 @@
-import React from 'react'
+import React from 'react';
 
 function Footer() {
   return (
-    <>
     <footer>
-      <div className="container-fluid bg-black text-center justify-content-evenly">
-      <h1 className=' d text-primary pt-2'>B<span id='t'>udhdha</span> S<span id='t'>tore</span></h1>
-      <p className='text-light'>Discover a world of convenience and style with our curated collection at Budhdha Store. <br /> From fashion-forward apparel to must-have gadgets, we offer top-quality products at unbeatable prices. <br /> Shop with ease and confidence, knowing you're getting the best in selection and service. Start exploring today!</p>
-      <div className="text-primary pb-1">Connect With Us</div>
-      <div class="d-flex justify-content-center pb-4  gap-5">
-      <a className=' c' href=""><i class="fa-brands fa-facebook"></i></a>
-      <a className=' c' href=""> <i class="fa-brands fa-instagram"></i></a>
-      <a className=' c' href=""><i class="fa-brands fa-twitter"></i></a>
-      <a className=' c' href=""><i class="fa-brands fa-youtube"></i></a>
-      </div>
-      <hr className='text-light pb-5' />
-      <div className="row pb-5 ">
-        <div className="col-3">
-          <div className="contact t e pb-3 fs-4 fw-bolder ">CONTACT US</div>
-          <div className="add text-light pb-1 "><i class="fa-solid fa-location-dot"></i> Subidhanagar, Tinkune Kathmandu</div>
-          <div className="email text-light pb-1 "> <i class="fa-regular fa-envelope"></i>hbohara54@gmail.com</div>
-          <div className="con text-light pb-1"> <i class="fa-solid fa-phone"></i>+977-9840046062/+977-9805761214</div>
-
+      <div className="container-fluid bg-black text-center">
+        <h1 className='d text-primary pt-2'>B<span id='t'>udhdha</span> S<span id='t'>tore</span></h1>
+        <p className='text-light'>Discover a world of convenience and style with our curated collection at Budhdha Store. <br /> From fashion-forward apparel to must-have gadgets, we offer top-quality products at unbeatable prices. <br /> Shop with ease and confidence, knowing you're getting the best in selection and service. Start exploring today!</p>
+        <div className="text-primary pb-1">Connect With Us</div>
+        <div className="d-flex justify-content-center pb-4 gap-5">
+          <a className='c' href=""><i className="fa-brands fa-facebook"></i></a>
+          <a className='c' href=""><i className="fa-brands fa-instagram"></i></a>
+          <a className='c' href=""><i className="fa-brands fa-twitter"></i></a>
+          <a className='c' href=""><i className="fa-brands fa-youtube"></i></a>
         </div>
-        <div className="col-3">
-          <div className="contact  e pb-3 fs-4 fw-bolder">ABOUT COMPANY</div>
-          <div className="div pb-1"><a href="">Complaint</a></div>
-          <div className="div pb-1"><a href="">Careers</a></div>
-          <div className="div pb-1"><a href="">Affiliate Marketing</a></div>
-          <div className="div pb-1"><a href="">Support</a></div>
-        </div>
-        <div className="col-3">
-          <div className="contact  e pb-3 fs-4 fw-bolder">GET HELP</div>
-          <div className="div pb-1"><a href="">Help Center</a></div>
-          <div className="div pb-1"><a href="">Privacy Policy</a></div>
-          <div className="div pb-1"><a href="">Terms</a></div>
-          <div className="div pb-1"><a href="">Login</a></div>
-
-        </div>
-         <div className="col-3">
-          <div className="contact  e pb-3 fs-4 fw-bolder">PAY WITH</div>
-          <img id='pic' src="https://cdn.esewa.com.np/ui/images/esewa_og.png?111" class="img-thumbnail" alt="..."></img>
+        <hr className='text-light pb-5' />
+        <div className="row pb-5">
+          <div className="col-sm-6 col-md-3">
+            <div className="contact t e pb-3 fs-4 fw-bolder">CONTACT US</div>
+            <div className="add text-light pb-1"><i className="fa-solid fa-location-dot"></i> Subidhanagar, Tinkune Kathmandu</div>
+            <div className="email text-light pb-1"><i className="fa-regular fa-envelope"></i> hbohara54@gmail.com</div>
+            <div className="con text-light pb-1"><i className="fa-solid fa-phone"></i> +977-9840046062/+977-9805761214</div>
+          </div>
+          <div className="col-sm-6 col-md-3">
+            <div className="contact e pb-3 fs-4 fw-bolder">ABOUT COMPANY</div>
+            <div className="div pb-1"><a href="">Complaint</a></div>
+            <div className="div pb-1"><a href="">Careers</a></div>
+            <div className="div pb-1"><a href="">Affiliate Marketing</a></div>
+            <div className="div pb-1"><a href="">Support</a></div>
+          </div>
+          <div className="col-sm-6 col-md-3">
+            <div className="contact e pb-3 fs-4 fw-bolder">GET HELP</div>
+            <div className="div pb-1"><a href="">Help Center</a></div>
+            <div className="div pb-1"><a href="">Privacy Policy</a></div>
+            <div className="div pb-1"><a href="">Terms</a></div>
+            <div className="div pb-1"><a href="">Login</a></div>
+          </div>
+          <div className="col-sm-6 col-md-3">
+            <div className="contact e pb-3 fs-4 fw-bolder">PAY WITH</div>
+            <img id='pic' src="https://cdn.esewa.com.np/ui/images/esewa_og.png?111" class="img-thumbnail" alt="..."></img>
           <img id='pic' src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQFET8ER8Z6WXX-2IwG37yhpjCPFUaigh-u4kuz-0lKzhVtRbpamW6JG5oZfAtfqDzhDk8&usqp=CAU" class="img-thumbnail" alt="..."></img>
           <img id='pic' src="data:image/png;base64,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" class="img-thumbnail" alt="..."></img>
           <img id='pic' src="https://techsathi.com/wp-content/uploads/2020/10/connectips-logo.png" class="img-thumbnail" alt="..."></img>
           </div>
-        
-      </div>
-      <hr className='text-light  ' />
-      <div class="footer text-light pb-3">Copyright © <a href="/">Budhdha Store</a> 2024</div>
+        </div>
+        <hr className='text-light' />
+        <div className="footer text-light pb-3">Copyright © <a href="/">Budhdha Store</a> 2024</div>
       </div>
     </footer>
-    </>
   )
 }
 
-export default Footer
+export default Footer;

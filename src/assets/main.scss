@@ -2,12 +2,14 @@
   @import url('https://fonts.googleapis.com/css2?family=Protest+Riot&display=swap');
   @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Patrick+Hand&display=swap');
 
 *{
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    font-family: cursive;
+    font-family: "Merriweather", serif;
+    
     
 }
 
@@ -39,13 +41,12 @@ span{
 h1{
     font-family: 'Bebas Neue', sans-serif;
 }
-.cont-1{
-    margin-top: 300px;
-}
+
 .buyb {
     background-color: rgba(164, 188, 70, 1);
     color: white;
-    padding: 10px 83px;
+    padding: 10px 35px;
+    
     
     
   }
@@ -62,9 +63,11 @@ h1{
 
 
 #hover{
-    color: red;
-    font-size: 13px;
-}
+font-family: "Merriweather", serif;
+  font-weight: 900;
+  font-size: 14px;
+  color: red;
+  font-style: normal}
 
 #hover:hover{
     color: #0D6EFD;
@@ -76,7 +79,7 @@ h1{
 
 
 .item {
-    /* border: 1px solid red; */
+    
     height: 300px;
 }
 
@@ -149,7 +152,7 @@ a:hover{
     
 }
 .size{
-    height: 900px;
+    height: 540px;
    
 }
 
@@ -179,3 +182,44 @@ a:hover{
         }
     
 }
+
+@media (max-width: 991.98px) {
+    .cont-1 {
+        text-align: center;
+    }
+}
+
+
+@media (max-width: 767.98px) {
+    .cont-1 {
+        text-align: center;
+    }
+    .col-lg-6 {
+        order: 2; 
+    }
+    .col-lg-6 img {
+        width: 100%; 
+        height: auto;
+    }
+}
+
+
+@media (min-width: 992px) {
+    .nav1 .navbar-nav {
+      display: flex;
+      align-items: center;
+    }
+    
+  }
+  
+
+  @media (max-width: 991.98px) {
+    .navbar-nav {
+      flex-direction: column;
+    }
+    .nav1{
+        position: relative;
+        display: none;
+    }
+  }
+  
